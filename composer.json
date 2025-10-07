@@ -13,5 +13,8 @@
         "files": [
           "src/app/Utils/functions/helpers.php"
         ]
+    },
+    "scripts": {
+        "start": "php src/index.php"
     }
 }
