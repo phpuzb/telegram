@@ -18,6 +18,10 @@ require_once __DIR__ . '/../Telegram/telegram.php';
 // so we need to set the running on webhook mode
 if (env("APP_ENV", "local") !== 'local') {
     $bot->setRunningMode(Webhook::class);
+} else {
+    // When running locally with long polling, ensure any existing webhook is removed
+    // to avoid 409 Conflict from Telegram when calling getUpdates
+    $bot->deleteWebhook(true);
 }
 
 /** @var Nutgram $bot [Defining variable name for IDEs] */
