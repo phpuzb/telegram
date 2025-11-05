@@ -17,7 +17,7 @@ class WelcomeToGroupConversation extends Conversation
         $text_group = <<<HTML
         <b>Salom!</b>
         
-        Sizlarni bu guruhda ko'rib turganimizdan mamnunmiz.
+        Sizni bu guruhda ko'rib turganimizdan mamnunmiz.
         Bu guruh PHP dasturlash tiliga qaratilgan bo'lib, bu yerda
         ushbu til haqida gaplashish, savollar berish yoki o'z fikrlaringiz
         bilan bo'lishishingiz mumkin. 
