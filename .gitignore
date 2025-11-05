@@ -6,3 +6,4 @@ composer.lock
 .vscode
 /result
 .direnv
+update.json

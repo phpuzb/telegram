@@ -21,8 +21,8 @@ This is an assistant telegram bot for PHP Uzbekistan community. It helps communi
 ## Features
 
 These are features that were implemented within telegram bot. Features that are underdevelopment are marked `WIP`.
-- [WIP] Greet newcomers of the community (it's a trigger)
-- [WIP] Delete messages from Channel users (it's a trigger)
+- Greet newcomers of the community (it's a trigger)
+- Delete messages from Channel users (it's a trigger)
 - Serve rules list for members (via `/rules`)
 - Show other PHP communities (via `/group`)
 - Roadmap for newbies (via `/roadmap`)

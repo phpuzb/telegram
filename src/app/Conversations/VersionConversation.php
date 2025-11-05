@@ -5,6 +5,7 @@ namespace App\Conversations;
 use App\Buttons\InlineButtons\VersionKeyboards;
 use App\Utils\Traits\GeneralTrait;
 use App\Utils\Traits\VersionTrait;
+use JsonException;
 use SergiX44\Nutgram\Conversations\Conversation;
 use SergiX44\Nutgram\Nutgram;
 use SergiX44\Nutgram\Telegram\Properties\ParseMode;
@@ -19,7 +20,7 @@ class VersionConversation extends Conversation
     HTML;
 
     /**
-     * @throws \JsonException
+     * @throws JsonException
      */
     public function start(Nutgram $bot, ...$parameters): void
     {
